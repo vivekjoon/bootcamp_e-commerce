@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-around; */
+    border-bottom: 1px solid #8a2b06;
+    
+}
+
+img {
+    width: 500PX;
+}
+
+.right {
+    padding: 1rem 2rem;
+}
+
+.title {
+    border-bottom: 1px solid #8a2b06;
+    padding: 1rem 0;
+}
+
+.selection {
+    border-bottom: 1px solid #8a2b06;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.description {
+    padding: 1rem 0;
+    
+}
+
+hr {
+    border-top: 1px solid #8a2b06;
+    width: 20%;
+    
+}
+button {
+    background-color: #8a2b06;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+

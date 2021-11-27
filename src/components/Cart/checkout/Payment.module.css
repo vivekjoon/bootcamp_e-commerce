@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.upper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #8a2b06;
+    color: white;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    /* overflow: auto;
+    height: 70vh; */
+}
+
+.upperLeft {
+    border-right: solid 1px #8a2b06;
+}
+
+input {
+    margin: 0.5rem;
+    border: solid 1px rgb(29, 20, 20);
+}
+
+.radio {
+    width: 15px;
+
+}
+
+h1 {
+   padding: 1rem; 
+}
+
+.cards {
+    margin: 1rem;
+    border: 1px solid white;
+    padding: 10px;
+    height: 60vh;
+    overflow: auto  ;
+    
+}
+
+.bottom {
+    padding: 2rem;
+}
+
+.button {
+    background-color: #8a2b06;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    font-size: 1rem;
+    margin: 30px;
+}
+
+.alt--button {
+    color: #8a2b06;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px 30px;
+    font-size: 1rem;
+    border: 1px solid #8a2b06
+}
+
+.image {
+    width: 50px;
+    
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+}
+
+.rightPart {
+    padding-left: 10px;
+}
+
+.bill {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+}

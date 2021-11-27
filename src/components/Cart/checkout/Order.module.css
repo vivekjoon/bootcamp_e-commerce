@@ -1,0 +1,17 @@
+.container {
+    padding: 10rem;
+    text-align: center;
+}
+
+.main {
+    background-color: #8a2b06;
+    padding: 5rem;
+    color: white;
+}
+
+.home {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    border-radius: 10px;
+    border: 5px solid #8a2b06;
+}
